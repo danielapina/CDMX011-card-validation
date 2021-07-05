@@ -1,0 +1,75 @@
+
+body{
+    
+    background: #FFB703;
+    margin:50px 50px;
+}
+h1{
+   
+    border-radius: nullpx;
+    font-family: Nunito;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 68px;
+letter-spacing: 0em;
+text-align: center;
+
+
+}
+h2{
+  
+border-radius: nullpx;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color: #14213D;
+}
+a{
+    background-color: #005F73;
+    color:#ee6c4d;
+    border-radius: 5px;
+    font-size: small;
+   
+}
+
+.myBtn{
+   
+width: 458px;
+height: 39px;
+left: 441px;
+top: 491px;
+background: #C4C4C4;
+
+}
+.writeHere{
+  
+border-radius: nullpx;
+font-family: Nunito;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color: #023047;
+}
+
+.btnValidate{
+    
+width: 81px;
+height: 40px;
+left: 20px;
+top: 514px;
+
+background: #023047;
+color:#FFB703;
+border-radius: 30px;
+}
+footer{
+    padding-top:200px;
+}
