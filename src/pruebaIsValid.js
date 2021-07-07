@@ -1,7 +1,4 @@
-//aqui toda la logica
-const validator = {
-  // ...
-  "isValid": function(creditCardNumber){
+function isValid(creditCardNumber){
     let digits = creditCardNumber.split('').map(Number).reverse().map((digit,i)=>{
       if(i%2 !==0){
         let mult = digit*2;
@@ -32,16 +29,4 @@ let validateNumber= total%2==0 ? true : false;
   
     
   
-  ,"maskify": function(creditCardNumber){
-    let maskifyNum= creditCardNumber.split('').map((letter,i)=>
-   i< creditCardNumber.length -4 ? '#' : letter).join('');
-   console.log(maskifyNum)
-   
-   return maskifyNum
-
-  }
-
-  };
-
-
-export default validator;
+  isValid("7854328988765431");

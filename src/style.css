@@ -41,22 +41,23 @@ a{
    
 width: 458px;
 height: 39px;
-left: 441px;
-top: 491px;
+margin-left: 430px;
+margin-right:430px;
 background: #C4C4C4;
 
 }
 .writeHere{
   
-border-radius: nullpx;
 font-family: Nunito;
 font-size: 24px;
 font-style: normal;
-font-weight: 400;
 line-height: 33px;
 letter-spacing: 0em;
 text-align: center;
 color: #023047;
+margin-left: 430px;
+margin-right:430px;
+
 }
 
 .btnValidate{
@@ -65,11 +66,39 @@ width: 81px;
 height: 40px;
 left: 20px;
 top: 514px;
-
 background: #023047;
 color:#FFB703;
 border-radius: 30px;
+margin-left: 630px;
+margin-right:630px;
+}
+.btnValidate:hover{
+    background: #f9844a;
+    color:#14213D
+
 }
 footer{
-    padding-top:200px;
+    padding-top:150px;
+}
+
+p{
+    border-style: inset;
+    border-color: #005f73;
+    border-width:3px 3px;
+    text-align:center;
+    margin-left: 400px;
+    margin-right:400px;
+    position: relative;
+    top:-300px;
+   
+  
+
+}
+
+.cardImg{
+    margin:10px auto;
+		    display:block;
+}
+.mainSquare{
+    background-color:white;
 }

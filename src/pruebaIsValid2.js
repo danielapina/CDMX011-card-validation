@@ -1,5 +1,5 @@
 function isValid(traerValor){
-    const total=undefined;
+    
     let digits = traerValor.toString().split('').map(Number);
     console.log(digits);
     let reverse=digits.reverse();
@@ -19,7 +19,8 @@ function isValid(traerValor){
             let suma=0;
             let evenNumbers= (reverse[i]);
             console.log(evenNumbers)
-            console.log(typeof evenNumbers)     
+            console.log(typeof evenNumbers) 
+            console.log(suma)    
             }    
         }
        

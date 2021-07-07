@@ -5,8 +5,9 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body id="cuerpo">
     <header>
+      <img class="jsImg" src="/imagenes/js.png" height="100" width="100" >
       <a href="inicio.html">INICIO</a>
       |
       <a href="cursos.html">CURSOS</a>
@@ -16,19 +17,36 @@
       <a href="compras.html">COMPRAS</a>
       |
       <hr>
-      <h1>Gracias por elegir nuestro Curso de JevaScript</h1>
+     
+      <h1>Gracias por elegir nuestro Curso de JavaScript</h1>
+     
 
     </header>
     <main>
       <section>
-        <h2>Ahora validemos tu tarjeta</h2>
+        <div class="mainSquare">
+          <br/>
+          <form required="true">
+        <h2>Ahora validemos su tarjeta</h2>
 
-        <label class="writeHere" for="numberId">Escriba su numero de Tarjeta:</label><br>
 
-        <input class="myBtn" type="text" name="numero" id="myBtn" required="true" placeholder="Numero de Tarjeta"><br/>
+
+        <img class="cardImg" id="cardImgId" src="/imagenes/tarjeta.png" height="200" width="200"><br/>
+        
+        <label class="writeHere" for="numberId" id="hide">Escriba su numero de Tarjeta: <span style="color:red">*</span></label><br>
+
+        <input class="myBtn" type="number" name="numero" id="myBtn"  placeholder="Numero de Tarjeta"  maxlength="5"><br/>
         <br/>
 
-       <button class="btnValidate" type="button" id="btnValidate">validar</button>
+       <button class="btnValidate" type="input" id="btnValidate">validar</button><br>
+       <br/>
+
+      <br/>
+      <br/>
+      <br/>
+    </form>
+    </div>
+     
       </section>
     </main>
 
