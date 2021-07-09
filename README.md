@@ -24,3 +24,6 @@ https://www.figma.com/file/L85tCnnJJyUuEJEgXrF7Pm/Untitled?node-id=0%3A1
 
 link de trello
 https://trello.com/danielapina1/boards
+
+link de readme.dox
+https://docs.google.com/document/d/1jTMvSLxr-DRcUbpeD2gzXG9WeIvNH7Y9YRuK9oG16ag/edit#heading=h.mbjsiz6n6jlo
